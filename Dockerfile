@@ -1,5 +1,6 @@
 # Custom Dockerfile to install required helm plugins
-FROM argoproj/argocd:v2.6.15
+# FROM argoproj/argocd:v2.6.15
+FROM quay.io/argoproj/argocd:v2.12.3
 
 USER root
 
